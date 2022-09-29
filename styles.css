@@ -23,8 +23,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding:20px;
-  background-image: url("https://ex.smnarnold.com/git/radars-vivants/fillette-de-face.jpeg");
+  padding:50px;
+  background-image: url("https://ex.smnarnold.com/git/radars-vivants/fillette-de-dos.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -35,12 +35,19 @@ body {
   align-self: center;
   font-size: 16px;
   max-width: 700px;
-  padding:20px;
-
+  padding:50px;
+  line-height: 2;
 }
 
 .video{
 
   width:100%;
+
+}
+
+.vivant{
+
+  -webkit-text-stroke: white 1px;
+  -webkit-text-fill-color: transparent;
 
 }
